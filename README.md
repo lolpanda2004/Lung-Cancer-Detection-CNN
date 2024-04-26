@@ -17,7 +17,10 @@ The CNN model architecture is designed to process medical images with dimensions
 - Fully Connected Layers: After feature extraction, the model flattens the output and passes it through fully connected layers to perform classification. ReLU activation functions are applied to maintain non-linearity.
 - Output Layer: The final layer consists of neurons equal to the number of classes (class_count) and utilizes softmax activation for multi-class classification.
 
-## Model Compilation:
+## Model Compilation
 - Optimizer: The Adamax optimizer is chosen with a learning rate of 0.001 to update the model's weights during training.
 - Loss Function: Categorical cross-entropy is selected as the loss function, suitable for multi-class classification tasks.
 - Metrics: The model's performance is evaluated using accuracy as the metric, measuring the proportion of correctly classified samples.
+
+## Output
+![Accuracy](https://github.com/lolpanda2004/Lung-Cancer-Detection-CNN/assets/98698654/df3448aa-db65-4d0c-b9cf-e77c9dba3efc)
